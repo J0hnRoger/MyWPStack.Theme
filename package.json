@@ -1,0 +1,31 @@
+{
+  "name": "my-wp-stack",
+  "version": "1.0.0",
+  "description": "MyWPStack NPM Packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/J0hnRoger/MyWPStack.Theme.git"
+  },
+  "keywords": [
+    "Themosis",
+    "WordPress",
+    "NPM",
+    "Bower",
+    "DevStack"
+  ],
+  "author": "J0hnRoger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/J0hnRoger/MyWPStack.Theme/issues"
+  },
+  "homepage": "https://github.com/J0hnRoger/MyWPStack.Theme#readme",
+  "devDependencies": {
+    "bower": "^1.6.5",
+    "dploy": "^1.2.0",
+    "gulp": "^3.9.0"
+  }
+}
