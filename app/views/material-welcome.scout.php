@@ -8,24 +8,16 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   <?php wp_head(); ?>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <!-- Ne pas supprimer les marqueurs suivants ! Sinon Bower sera perdu -->
     <!-- inject:css -->
-    <link rel="stylesheet" href="/content/themes/SLHB//app/assets/css/slhb.css">
-    <link rel="stylesheet" href="/content/themes/SLHB//app/assets/material-design-lite/material.min.css">
+    <link rel="stylesheet" href="/content/themes/MyWPStack.Theme//app/assets/css/styles.css">
+    <link rel="stylesheet" href="/content/themes/MyWPStack.Theme//app/assets/material-design-lite/material.min.css">
     <!-- endinject -->
-    
 </head>
 <body>
 <div class="mdl-layout mdl-js-layout">
   @include('layouts.header')
-  <div class="mdl-layout__drawer">
-    <span class="mdl-layout-title">Simple Layout</span>
-    <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="#">Nav link 2</a>
-      <a class="mdl-navigation__link" href="#">Nav link 2</a>
-      <a class="mdl-navigation__link" href="#">Nav link 3</a>
-    </nav>
-  </div>
   <main class="mdl-layout__content">
    @include('home-content')
   </main>
@@ -33,7 +25,7 @@
 <?php wp_footer(); ?>
     <!-- Ne pas supprimer les marqueurs suivants ! Sinon Bower sera perdu -->
     <!-- inject:js -->
-    <script src="/content/themes/SLHB//app/assets/material-design-lite/material.min.js"></script>
+    <script src="/content/themes/MyWPStack.Theme//app/assets/material-design-lite/material.min.js"></script>
     <!-- endinject -->
 </body>
 </html>
