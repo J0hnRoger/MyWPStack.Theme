@@ -10,7 +10,5 @@
  */
 
 Route::get('home', function(){
-
-    return View::make('welcome');
-
+    return View::make('material-welcome');
 });
